@@ -1,0 +1,40 @@
+body{
+    font-family: 'Mukta', sans-serif;
+font-family: 'Poppins', sans-serif;
+}
+Header{
+    position: absolute;
+    left: 20px;
+    right: 35px;
+    top: 12px;
+    margin-top: 40px;
+    margin-left: 35px;
+}
+/* top-work */
+h1{
+    color: #3A3A3A;
+}
+
+.flexible-container{
+    display: flex;
+    margin-top: 150px;
+}
+.half-width{
+    width: 50%;
+    padding-left: 3%;
+    color: #3A3A3A;
+}
+.half-width img{
+width: 70%;
+margin-top: -100px;
+padding-left: 100px;
+}
+.link-button{ 
+    text-decoration: none;
+    background-image: linear-gradient(rgba(228, 13, 138, 0.842), rgba(243, 9, 138, 0.74)),
+                      url("../../media/examples/lizard.png");
+    padding: 10px 40px;
+    color: white;
+    font-weight: 300;
+    border-radius: 25px;
+    }
