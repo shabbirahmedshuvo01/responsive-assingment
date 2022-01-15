@@ -56,6 +56,7 @@ padding-left: 100px;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-row-gap: 200px;
+    padding-left: 50px;
 }
 .products-items{
     width: 400px;
@@ -106,3 +107,34 @@ footer{
 .big-work{
     font-size: 20px;
 }
+/*--------------
+Media Querise
+-----------------*/
+
+/* Mobile Devices */
+
+@media only screen and (max-width:576px) {
+    .container{
+        width: 80%;
+         }
+         .products-items, .flexible-container{
+            grid-template-columns: repeat(1 ,1fr);
+            flex-direction: column;
+                column-gap: 10px; }
+                
+                .half-width img{
+display: flex;
+margin-top: 110px;
+                }
+                /* tablate devices */
+
+                @media only screen and (min-width: 577px) and (max-width: 768px) {
+                    .container, .flexible-container{
+                        width: 10% }
+                         }
+                        .flexible-container{
+                             grid-template-columns: repeat(2 ,3fr);
+                         }
+                          .products-items{
+                              grid-template-columns: repeat(4 ,3fr);
+                          }
