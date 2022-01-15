@@ -136,6 +136,5 @@ margin-top: 110px;
                              grid-template-columns: repeat(2 ,3fr);
                          }
                           .products-items{
-                              grid-template-columns: repeat(2 ,3fr);
-                          }
-                           }
+                              grid-template-columns: repeat(2 ,3fr);}
+                            }
