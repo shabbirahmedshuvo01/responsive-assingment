@@ -131,10 +131,11 @@ margin-top: 110px;
                 @media only screen and (min-width: 577px) and (max-width: 768px) {
                     .container, .flexible-container{
                         width: 10% }
-                         }
+                         
                         .flexible-container{
                              grid-template-columns: repeat(2 ,3fr);
                          }
                           .products-items{
-                              grid-template-columns: repeat(4 ,3fr);
+                              grid-template-columns: repeat(2 ,3fr);
                           }
+                           }
