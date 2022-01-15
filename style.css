@@ -145,7 +145,7 @@ margin-top: 110px;
 
                             /* transition */
 
-                            .tf-work:hover .half-width img{
+                            .half-width img:hover {
                                 transform: scale(1.5) skew(-60deg);
                                 transition: transform 2s ease-in-out;
                             }
